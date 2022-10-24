@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex-container">
+        <h1>Calculator</h1>
+        <div class="content">
+            <div class="display">0</div>
+            <div class="buttons">
+                <div class="digits">
+                    <button onclick="clickDigits(7)">7</button>
+                    <button onclick="clickDigits(8)">8</button>
+                    <button onclick="clickDigits(9)">9</button>
+                    <br>
+                    <button onclick="clickDigits(4)">4</button>
+                    <button onclick="clickDigits(5)">5</button>
+                    <button onclick="clickDigits(6)">6</button>
+                    <br>
+                    <button onclick="clickDigits(1)">1</button>
+                    <button onclick="clickDigits(2)">2</button>
+                    <button onclick="clickDigits(3)">3</button>
+                    <br>
+                    <button onclick="clickDigits(0)">0</button>
+                </div>
+                <div class="clear">
+                    <button>Clear</button>
+                </div>
+                <div class="operators">
+                    <button onclick="operator('/')">/</button>
+                    <button onclick="operator('X')">X</button>
+                    <button onclick="operator('-')">-</button>
+                    <button onclick="operator('+')">+</button>
+                    <button onclick="operator('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
